@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1358F082351063F00FCF3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F072351063F00FCF3AC /* AppDelegate.swift */; };
+		A1358F0D2351063F00FCF3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1358F0B2351063F00FCF3AC /* Main.storyboard */; };
+		A1358F0F2351064300FCF3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1358F0E2351064300FCF3AC /* Assets.xcassets */; };
+		A1358F122351064300FCF3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1358F102351064300FCF3AC /* LaunchScreen.storyboard */; };
+		A1358F1D2351064300FCF3AC /* LETUSWORRYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F1C2351064300FCF3AC /* LETUSWORRYTests.swift */; };
+		A1358F282351064300FCF3AC /* LETUSWORRYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F272351064300FCF3AC /* LETUSWORRYUITests.swift */; };
+		A1358F3A2351131700FCF3AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F392351131700FCF3AC /* DetailViewController.swift */; };
+		A1358F3C235562F800FCF3AC /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F3B235562F800FCF3AC /* ItemsViewController.swift */; };
+		A1358F3E2355660500FCF3AC /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F3D2355660500FCF3AC /* ItemCell.swift */; };
+		A1358F4023556D7B00FCF3AC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F3F23556D7B00FCF3AC /* Item.swift */; };
+		A1358F422355755200FCF3AC /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1358F412355755200FCF3AC /* ItemStore.swift */; };
+		A14FA3F923650EFA0052EA73 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FA3F823650EFA0052EA73 /* ImageStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1358F192351064300FCF3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1358EFC2351063F00FCF3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1358F032351063F00FCF3AC;
+			remoteInfo = LETUSWORRY;
+		};
+		A1358F242351064300FCF3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1358EFC2351063F00FCF3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1358F032351063F00FCF3AC;
+			remoteInfo = LETUSWORRY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1358F042351063F00FCF3AC /* LETUSWORRY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LETUSWORRY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1358F072351063F00FCF3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1358F0C2351063F00FCF3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1358F0E2351064300FCF3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1358F112351064300FCF3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1358F132351064300FCF3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1358F182351064300FCF3AC /* LETUSWORRYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LETUSWORRYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1358F1C2351064300FCF3AC /* LETUSWORRYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETUSWORRYTests.swift; sourceTree = "<group>"; };
+		A1358F1E2351064300FCF3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1358F232351064300FCF3AC /* LETUSWORRYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LETUSWORRYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1358F272351064300FCF3AC /* LETUSWORRYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LETUSWORRYUITests.swift; sourceTree = "<group>"; };
+		A1358F292351064300FCF3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1358F392351131700FCF3AC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A1358F3B235562F800FCF3AC /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		A1358F3D2355660500FCF3AC /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		A1358F3F23556D7B00FCF3AC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A1358F412355755200FCF3AC /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		A14FA3F823650EFA0052EA73 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1358F012351063F00FCF3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1358F152351064300FCF3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1358F202351064300FCF3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1358EFB2351063F00FCF3AC = {
+			isa = PBXGroup;
+			children = (
+				A1358F062351063F00FCF3AC /* LETUSWORRY */,
+				A1358F1B2351064300FCF3AC /* LETUSWORRYTests */,
+				A1358F262351064300FCF3AC /* LETUSWORRYUITests */,
+				A1358F052351063F00FCF3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1358F052351063F00FCF3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1358F042351063F00FCF3AC /* LETUSWORRY.app */,
+				A1358F182351064300FCF3AC /* LETUSWORRYTests.xctest */,
+				A1358F232351064300FCF3AC /* LETUSWORRYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1358F062351063F00FCF3AC /* LETUSWORRY */ = {
+			isa = PBXGroup;
+			children = (
+				A1358F072351063F00FCF3AC /* AppDelegate.swift */,
+				A1358F3B235562F800FCF3AC /* ItemsViewController.swift */,
+				A1358F0B2351063F00FCF3AC /* Main.storyboard */,
+				A1358F3F23556D7B00FCF3AC /* Item.swift */,
+				A1358F3D2355660500FCF3AC /* ItemCell.swift */,
+				A1358F412355755200FCF3AC /* ItemStore.swift */,
+				A1358F392351131700FCF3AC /* DetailViewController.swift */,
+				A14FA3F823650EFA0052EA73 /* ImageStore.swift */,
+				A1358F0E2351064300FCF3AC /* Assets.xcassets */,
+				A1358F102351064300FCF3AC /* LaunchScreen.storyboard */,
+				A1358F132351064300FCF3AC /* Info.plist */,
+			);
+			path = LETUSWORRY;
+			sourceTree = "<group>";
+		};
+		A1358F1B2351064300FCF3AC /* LETUSWORRYTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1358F1C2351064300FCF3AC /* LETUSWORRYTests.swift */,
+				A1358F1E2351064300FCF3AC /* Info.plist */,
+			);
+			path = LETUSWORRYTests;
+			sourceTree = "<group>";
+		};
+		A1358F262351064300FCF3AC /* LETUSWORRYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1358F272351064300FCF3AC /* LETUSWORRYUITests.swift */,
+				A1358F292351064300FCF3AC /* Info.plist */,
+			);
+			path = LETUSWORRYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1358F032351063F00FCF3AC /* LETUSWORRY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1358F2C2351064300FCF3AC /* Build configuration list for PBXNativeTarget "LETUSWORRY" */;
+			buildPhases = (
+				A1358F002351063F00FCF3AC /* Sources */,
+				A1358F012351063F00FCF3AC /* Frameworks */,
+				A1358F022351063F00FCF3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LETUSWORRY;
+			productName = LETUSWORRY;
+			productReference = A1358F042351063F00FCF3AC /* LETUSWORRY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1358F172351064300FCF3AC /* LETUSWORRYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1358F2F2351064300FCF3AC /* Build configuration list for PBXNativeTarget "LETUSWORRYTests" */;
+			buildPhases = (
+				A1358F142351064300FCF3AC /* Sources */,
+				A1358F152351064300FCF3AC /* Frameworks */,
+				A1358F162351064300FCF3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1358F1A2351064300FCF3AC /* PBXTargetDependency */,
+			);
+			name = LETUSWORRYTests;
+			productName = LETUSWORRYTests;
+			productReference = A1358F182351064300FCF3AC /* LETUSWORRYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1358F222351064300FCF3AC /* LETUSWORRYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1358F322351064300FCF3AC /* Build configuration list for PBXNativeTarget "LETUSWORRYUITests" */;
+			buildPhases = (
+				A1358F1F2351064300FCF3AC /* Sources */,
+				A1358F202351064300FCF3AC /* Frameworks */,
+				A1358F212351064300FCF3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1358F252351064300FCF3AC /* PBXTargetDependency */,
+			);
+			name = LETUSWORRYUITests;
+			productName = LETUSWORRYUITests;
+			productReference = A1358F232351064300FCF3AC /* LETUSWORRYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1358EFC2351063F00FCF3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Firus Hanov";
+				TargetAttributes = {
+					A1358F032351063F00FCF3AC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A1358F172351064300FCF3AC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A1358F032351063F00FCF3AC;
+					};
+					A1358F222351064300FCF3AC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A1358F032351063F00FCF3AC;
+					};
+				};
+			};
+			buildConfigurationList = A1358EFF2351063F00FCF3AC /* Build configuration list for PBXProject "LETUSWORRY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1358EFB2351063F00FCF3AC;
+			productRefGroup = A1358F052351063F00FCF3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1358F032351063F00FCF3AC /* LETUSWORRY */,
+				A1358F172351064300FCF3AC /* LETUSWORRYTests */,
+				A1358F222351064300FCF3AC /* LETUSWORRYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1358F022351063F00FCF3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1358F122351064300FCF3AC /* LaunchScreen.storyboard in Resources */,
+				A1358F0F2351064300FCF3AC /* Assets.xcassets in Resources */,
+				A1358F0D2351063F00FCF3AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1358F162351064300FCF3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1358F212351064300FCF3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1358F002351063F00FCF3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1358F3C235562F800FCF3AC /* ItemsViewController.swift in Sources */,
+				A1358F082351063F00FCF3AC /* AppDelegate.swift in Sources */,
+				A1358F3A2351131700FCF3AC /* DetailViewController.swift in Sources */,
+				A1358F4023556D7B00FCF3AC /* Item.swift in Sources */,
+				A1358F422355755200FCF3AC /* ItemStore.swift in Sources */,
+				A14FA3F923650EFA0052EA73 /* ImageStore.swift in Sources */,
+				A1358F3E2355660500FCF3AC /* ItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1358F142351064300FCF3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1358F1D2351064300FCF3AC /* LETUSWORRYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1358F1F2351064300FCF3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1358F282351064300FCF3AC /* LETUSWORRYUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1358F1A2351064300FCF3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1358F032351063F00FCF3AC /* LETUSWORRY */;
+			targetProxy = A1358F192351064300FCF3AC /* PBXContainerItemProxy */;
+		};
+		A1358F252351064300FCF3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1358F032351063F00FCF3AC /* LETUSWORRY */;
+			targetProxy = A1358F242351064300FCF3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1358F0B2351063F00FCF3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1358F0C2351063F00FCF3AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1358F102351064300FCF3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1358F112351064300FCF3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1358F2A2351064300FCF3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1358F2B2351064300FCF3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1358F2D2351064300FCF3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LETUSWORRY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = firushanov.LETUSWORRY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1358F2E2351064300FCF3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LETUSWORRY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = firushanov.LETUSWORRY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1358F302351064300FCF3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LETUSWORRYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = firushanov.LETUSWORRYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LETUSWORRY.app/LETUSWORRY";
+			};
+			name = Debug;
+		};
+		A1358F312351064300FCF3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LETUSWORRYTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = firushanov.LETUSWORRYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LETUSWORRY.app/LETUSWORRY";
+			};
+			name = Release;
+		};
+		A1358F332351064300FCF3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LETUSWORRYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = firushanov.LETUSWORRYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LETUSWORRY;
+			};
+			name = Debug;
+		};
+		A1358F342351064300FCF3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LETUSWORRYUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = firushanov.LETUSWORRYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LETUSWORRY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1358EFF2351063F00FCF3AC /* Build configuration list for PBXProject "LETUSWORRY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1358F2A2351064300FCF3AC /* Debug */,
+				A1358F2B2351064300FCF3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1358F2C2351064300FCF3AC /* Build configuration list for PBXNativeTarget "LETUSWORRY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1358F2D2351064300FCF3AC /* Debug */,
+				A1358F2E2351064300FCF3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1358F2F2351064300FCF3AC /* Build configuration list for PBXNativeTarget "LETUSWORRYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1358F302351064300FCF3AC /* Debug */,
+				A1358F312351064300FCF3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1358F322351064300FCF3AC /* Build configuration list for PBXNativeTarget "LETUSWORRYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1358F332351064300FCF3AC /* Debug */,
+				A1358F342351064300FCF3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1358EFC2351063F00FCF3AC /* Project object */;
+}
